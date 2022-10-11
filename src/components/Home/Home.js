@@ -4,8 +4,8 @@ import Header from "../Header/Header";
 import Topic from "../Topic/Topic";
 
 const Home = () => {
-  const data = useLoaderData();
-  const topics = data.data;
+  const loadData = useLoaderData();
+  const topics = loadData.data;
   return (
     <div>
       <Header></Header>
