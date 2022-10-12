@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
       <Header></Header>
-      <div className="bg-blue-100 grid grid-cols-1 p-4 gap-4 lg:grid lg:grid-cols-4">
+      <div className="bg-blue-200 grid grid-cols-1 p-4 gap-4 lg:grid lg:grid-cols-4">
         {topics.map((topic) => (
           <Topic key={topic.id} topic={topic}></Topic>
         ))}
