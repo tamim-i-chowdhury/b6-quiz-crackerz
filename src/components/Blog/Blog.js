@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Blog = () => {
   return (
-    <div className="grid gap-8 mx-8 my-8 lg:grid-cols-3">
+    <div className="grid gap-8 mx-8 mt-8 lg:grid-cols-3">
       <div className="card w-full bg-base-100 shadow-xl">
         <figure>
           <img
